@@ -1,0 +1,31 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>烏夜啼 tei example</title>
+                <author>李白</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body xml:lang="zh">
+            <div type="poem">
+                <head>烏夜啼</head>
+                <lg>
+                    <l>黃云城邊烏欲栖</l>
+                    <l>歸飛啞啞枝上啼</l>
+                    <l>机中織錦秦川女</l>
+                    <l>碧紗如煙隔窗語</l>
+                    <l>停梭悵然憶遠人</l>
+                    <l>獨宿孤房淚如雨</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

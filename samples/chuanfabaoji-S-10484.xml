@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/dunhuang-schema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zho-Hant">傳法寶紀── 敦煌遺書S.10484的數位版本</title>
+        <title type="simple" xml:lang="zho-Hant">傳法寶紀 S.10484</title>
+        <title xml:lang="eng">The Record of the Transmission of the Dharma Jewel - A Transcription of the Dunhuang Manuscript S.10484</title>
+        <author xml:lang="zho-Hant">杜朏</author>
+        <author xml:lang="zho-Latn">Du Fei</author>
+        <respStmt>
+          <name>Chang, Po-Yung 張伯雍</name>
+          <resp>Transcription</resp>
+        </respStmt>
+        <principal>Marcus Bingenheimer 馬德偉</principal>
+        <funder>Chung-hwa Institute of Buddhist Studies 中華佛學研究所</funder>
+      </titleStmt>
+      <publicationStmt>
+        <p>This XML/TEI transcription is made available under a Creative Commons License (Attribution-ShareAlike 4.0 International)</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>The transcription was done from digital facsimiles distributed by the International Dunhuang Project and the Bibliothèque nationale de France. For a detailed description of a ms from the Pelliot collection please refer to the "Catalogue des manuscrits chinois de Touen-Houang" Paris 1970-2001. For mss from the Stein collection try Lionel Giles "Descriptive Catalogue of the Chinese Manuscripts from Tunhuang in the British Museum." London: British Museum, 1957.
+        </p>
+      </sourceDesc>
+    </fileDesc>
+    <xi:include href="00-encodingDesc.xml"/>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="wrap-S-10484r-0001-0003">
+        <ab xml:id="cfbj-S-10484-01">
+          <milestone unit="sheet" n="S-10484r-01"/>
+          <lb xml:id="S-10484r-0001"/>
+          <ptr target="#n21"/>
+          <damage>氏</damage>
+          <pc>。</pc>
+          <damage>少</damage>為儒          <pc>，</pc>
+          <orig reg="博">
+            <g ref="#A00442-005"/>
+          </orig>聞          <pc>，</pc>
+          <orig reg="尤">
+            <g ref="#A01072-003"/>
+          </orig>精          <pc>《</pc>
+          <orig reg="詩">
+            <g ref="#S10484-01-09"/>
+          </orig>
+          <pc>》、《</pc>易          <pc>》。</pc>知          <orig reg="世">
+            <g ref="#A00012-010"/>
+          </orig>
+          <lb xml:id="S-10484r-0002"/>
+          <damage unit="char" extent="12"/>
+          <damage>達</damage>摩大          <orig reg="師">
+            <g ref="#A01174-005"/>
+          </orig>
+          <pc>，</pc>
+          <unclear reason="damage">深</unclear>
+          <damage unit="char" extent="6"/>
+          <lb xml:id="S-10484r-0003"/>
+          <damage unit="char" extent="12"/>
+          <damage>師</damage>言          <pc>「</pc>
+          <orig type="Ext-A" reg="能">䏻</orig>以身          <damage unit="char" extent="6"/>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

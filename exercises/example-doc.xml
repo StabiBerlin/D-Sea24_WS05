@@ -1,0 +1,6 @@
+<root>
+  <other id="special"/>
+  <child>
+    <other>test</other>
+  </child>
+</root>
